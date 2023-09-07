@@ -1,0 +1,737 @@
+body{
+    background: url(../images/high-resolution-black-background-09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px;
+    padding: 0px;
+    text-transform: capitalize;
+}
+
+.header{
+    display: inline-flex;
+    background: #0B1C3A;
+    width: 100%;
+    padding: 0px;
+}
+.logo{
+    margin: 0px 50px;
+}
+.logo img{}
+
+.collapse{
+    margin: 0px 150px;
+}
+
+.menubar ul li a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.menubar ul li a:hover{
+    color: white;
+    border-bottom: 2px solid greenyellow;
+    transition: 1s;
+}
+.btntop{
+    margin: 40px -85px;
+}
+
+
+.banner{
+    padding: 100px 200px;
+}
+
+.bannerleft{}
+.rotateimage{
+    width: 150px;
+    height: 150px;
+    margin-left: 400px;
+    margin-bottom: 40px;
+    margin-top: -60px;
+    animation: rotateanimation 5s infinite;
+}
+@keyframes rotateanimation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:  rotate(1420deg);
+    }
+}
+.bannerleft img{}
+.banerimg{
+    margin-left: 250px;
+}
+
+.bannerleft h1{ 
+    color: white;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+.bannerleft p{
+    color: rgb(255, 174, 0);
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 250px;
+}
+.bannerleft button{
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+    background: greenyellow;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 375px;
+}
+.bannerleft button:hover{
+    background: black;
+    color: white;
+    border: 1px solid #FF8300;
+    transition: .5s;
+}
+
+.featured{
+    display: inline-flex;
+    padding: 0px 150px;
+}
+.itemone{
+    width: 300px;
+    padding: 20px 25px;
+    text-align: center;
+    margin-right: 49px;
+}
+.itemone img{
+    width: 100%;
+}
+.itemone h2{
+    color: white;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 35PX;
+    margin-top: 25px;
+}
+
+.itemone button{
+    width: 200px;
+    padding: 5px;
+    background: #adff2f00;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: orange;
+    border: 1px solid gray;
+    margin-top: 25px;
+}
+.itemone button:hover{
+    color: black;
+    background: greenyellow;
+}
+
+.about{
+    display: inline-flex;
+    padding: 150px 150px;
+}
+.aboutleft{
+    width: 500px;
+    margin-right: 40px;
+    margin-top: 100px;
+}
+.aboutleft h2{
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+}
+.aboutleft p{
+    color:#FF8300;
+    font-size: 18px;
+}
+.aboutleft button{
+    width: 200px;
+    padding: 10px;
+    background: greenyellow;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.aboutleft button:hover{
+    background: black;
+    color: white;
+    border: 1px solid #FF8300;
+    transition: .5s;
+}
+
+.aboutright{
+    width: 500px;
+}
+.aboutright img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.abouttwo{
+    display: inline-flex;
+    padding: 100px 150px;
+}
+
+.abouttworight{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: url(../images/white-wall-background-texture-seamless-ceramic-tiles-white-wall-background-160826280.jpg);
+    background-repeat: no-repeat;
+    margin-right: 49px;
+}
+.abouttworight img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    padding-top: 70px;
+}
+
+.abouttwoleft{
+    width: 500px;
+}
+.abouttwoleft h2{
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    padding-top: 70px;
+}
+.abouttwoleft p{
+    color:#FF8300;
+    font-size: 18px;
+}
+.abouttwoleft button{
+    width: 200px;
+    padding: 10px;
+    background: greenyellow;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.abouttwoleft button:hover{
+    background: black;
+    color: white;
+    border: 1px solid #FF8300;
+    transition: .5s;
+}
+
+.heading{
+    padding-top: 50px;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 50px;
+}
+.heading h2{
+    color: white;
+}
+    
+.heading p{
+    color: #FF8300;
+    font-size: 18px;
+    padding: 15px 150px;
+}
+.service{
+    display: inline-flex;
+    padding: 50px 130px;
+}
+.serviceone{
+    width: 330px;
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin-right: 30px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.serviceone h3{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+}
+.serviceone p{
+    font-size: 18px;
+    color: #FF8300;
+}
+.serviceone img{
+    width: 100%;
+}
+.serviceone:hover{
+    background: url(../images/lighting-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.serviceone:hover h3{
+    color: greenyellow;
+}
+.serviceone:hover p{
+    color: white;
+}
+
+.featureditem{
+    padding: 50px 50px;
+}
+.featureditemone{
+    width: 350px;
+    margin-right: 15px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 20px 15px;
+}
+.featureditemone img{
+}
+.featureditemone h3{
+    color: white;
+    padding: 10px 0px;
+}
+.featureditemone button{
+    width: 200px;
+    padding: 10px;
+    background: greenyellow;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.featureditemone button:hover{
+    background: black;
+    color: white;
+}
+
+.main{
+    display: inline-flex;
+    padding: 100px 122px
+}
+.left{
+    background: url(../images/colorful-veggies-frame-with-copy-space.jpg);
+    width: 700px;
+    color: black;
+    padding-left: 130px;
+    padding-top: 175px;
+    padding-bottom: 205px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left h3{
+    font-size: 15px;
+    background: greenyellow;
+    color: black;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 190px;
+}
+.left h1{
+    font-size: 27px;
+    margin-left: 60px;
+}
+.right{
+    width:400px;
+    margin-top: 0px;
+}
+.upper{
+    background: url(../images/male-husband-wearing-face-mask-protection-hand-choose-vagetable-shopping-grocery-store-supermarket-new-normal-lifestyle-health-ideas-concept.jpg);
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-bottom: 2px;
+    background-repeat: no-repeat;
+    color:black;
+    background-size: cover;
+}
+.upper h3{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 3px;
+    background: greenyellow;
+    display: inline-block;
+    padding: 5px;
+}
+.upper h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.lower{
+    background:url(../images/vegetable-shopping.jpg);
+    width: 100%;
+    margin-top: 2px;
+    padding-top: 100px;
+    padding-bottom: 42px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    color: black;
+    background-size: cover;
+}
+.lower h3{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 3px;
+    background: greenyellow;
+    display: inline-block;
+    padding: 5px;
+}
+.lower h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.client{
+    padding: 50px 50px;
+}
+.clientone{
+    width: 350px;
+    margin-right: 25px;
+}
+.clientone img{
+    width: 100%;
+}
+.clientone p{
+    color: #FF8300;
+    font-size: 18px;
+    text-align: center;
+}
+.clientone h3{
+    color: greenyellow;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    border-top: 1px solid gray;
+    width: 90px;
+    margin-left: 130px;
+}
+.quoteicon{
+    text-align: center;
+    color: white;
+    margin-left: 160px;
+    padding: 20px 0px;
+}
+
+.teammember{
+    text-align: center;
+    display: inline-flex;
+    padding: 70px 119px;
+}
+    
+.team{
+    width:360px;
+    background: url(../images/lighting-bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 35px;
+    border: 1px solid black;
+    margin-right: 10px;
+    box-shadow: 5px 9px 3px black;
+}
+.team:hover{
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+.team img{
+    width:100%;
+}
+.team h1{
+    font-size: 22px;
+    margin-top: 8px;
+    padding-top: 24px;
+    color: white;
+}
+.team h4{
+    font-size: 15px;
+    margin-top: 8px;
+    color:rgb(255, 174, 0);
+}
+.team p{
+    font-size: 16px;
+    margin-top: 8px;
+    text-align: justify;
+    padding: 0px 50px;
+    color: white;
+}
+.team button{
+    background: black;
+    color: white;
+    padding: 7px;
+    width: 180px;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    border:1px solid white;
+    box-shadow: 5px 6px 3px black;
+    
+    font-weight: 700;
+}
+.team button:hover{
+    background: greenyellow;
+    color: black;
+    border:1px solid black;
+}
+
+.appoinment{
+    display:inline-flex;
+    text-align: center;
+    background: url(../images/DSCF0062.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+    padding: 100px 89px;
+    border-radius: 25px;
+}
+.consultant{
+    width:250px;
+    margin-right: 10px;
+    padding-top:100px;
+}
+.consultant img{
+    margin-bottom: 10px;
+}
+.consultant h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.consultant h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.consultant p{
+    font-size: 18px;
+}
+.input{
+    width: 500px;
+    background: #000000cc;
+    border-radius: 25px;
+    padding: 20px 0px;
+}
+.input h1{
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+}
+.input p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color:rgb(255, 174, 0);
+}
+.input button{
+    background: greenyellow;
+    padding:10px;
+    width:250px;
+    border: 1px solid gray;
+    box-shadow: 5px 9px 3px black;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.input button:hover{
+    background: black;
+    color: white;
+    border: 1px solid #FF8300;
+    transition: .5s;
+}
+.fstname{
+    width: 200px;
+    padding:7px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.name{
+    width:400px;
+    padding:7px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.footertop{
+    background: black;
+    padding: 10px 0px;
+}
+.footerlogo{
+    margin-left: 450px;
+}
+.footerlogo img{
+
+}
+.footerbottom{
+    display: inline-flex;
+    padding: 30px 139px;
+    color: white;
+    background: black;
+}
+.footerleft{
+    width: 350px;
+    margin-right: 10px;
+}
+.footerleft h2{
+    font-size: 25px;
+    padding-left: 43px;
+}
+
+.post{
+    padding: 50px 48px;
+}
+.post p{
+    font-size: 18px;
+}
+.para{
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    margin-top: -60px;
+}
+.arowicon{
+    margin-right: 10px;
+}
+.footermiddle{
+    width: 350px;
+    margin-right: 10px;
+}
+.footermiddle h2{
+    font-size: 25px;
+    padding-left: 43px;
+}
+.socialmedia{
+    padding: 40px 49px;
+}
+.socialmedia p{
+    font-size: 18px;
+}
+.socialicon{
+    margin-right: 15px;
+}
+.footerright{
+    width: 350px;
+}
+.footerright h2{
+    font-size: 25px;
+    padding-left: 43px;
+}
+.address{
+    padding: 40px 45px;
+}
+.ad{
+    margin-left: 35px;
+}
+.address p{
+    font-size: 18px;
+}
+.addressicon{
+    margin-right: 15px;
+}
+
+.smallfooter{
+    display: inline-flex;
+    background: #0B1C3A;
+    padding: 10px 174px;
+}
+.footermenu{
+    width:600px;
+    margin-top: 15px;
+}
+.footermenu nav{}
+.footermenu nav ul{}
+.footermenu nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+.footermenu nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #FF8300;
+}
+
+.footermenu nav ul li:hover{
+    border-bottom: 3px solid greenyellow;
+    transition: 1s;
+}
+
+
+
+
+.copyright{
+    width: 400px;
+    margin-top: 20px;
+}
+.copyright p{
+    text-align: right;
+    color: white;
+    font-size: 18px;
+}
+
+.modal-body{
+    background: url(../images/DSCF0062.jpg);
+    padding: 0px;
+}
+
+.popupform{
+    padding: 30px 80px;
+    background: #000000bf;
+}
+.popupform p{
+    font-size: 20px;
+    color: greenyellow;
+    font-weight: 700;
+}
+.popupname{
+    width: 300px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.loginbtn{
+    width: 200px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    margin-left: 50px;
+    font-weight: 700;
+    border: 1px solid black;
+}
+.loginbtn:hover{
+    background: greenyellow;
+    color: black;
+    border: 1px solid black;
+}
+
+.headerbtn{
+    background: greenyellow;
+    color: black;
+    font-weight: 700;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.headerbtn:hover{
+    background: black;
+    color: white;
+    border: 1px solid #FF8300;
+    transition: 1s;
+}
+
+.popupheading{
+    margin-left: 130px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
